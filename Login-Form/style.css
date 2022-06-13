@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(315deg, #fff, #d7e1ec);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+.container form {
+  padding: 0 40px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.container .input-container {
+  position: relative;
+  border-bottom: 2px solid #00dd90;
+  margin: 30px 10px;
+}
+.container .input-container input {
+  width: 100%;
+  height: 40px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0 5px;
+}
+
+.container .input-container .fa {
+  position: absolute;
+  bottom: 13px;
+  left: 250px;
+}
+.container .input-container .fa-eye {
+  cursor: pointer;
+}
+.container .forgetpass {
+  margin: -5px 0 20px 5px;
+}
+.container .forgetpass:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container .btn {
+  width: 100%;
+  height: 50px;
+  background: #00dd90;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+}
+.container .not-yet-a-memeber {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 16px;
+}
+.container .not-yet-a-memeber a {
+  color: #00dd90;
+  text-decoration: none;
+}
